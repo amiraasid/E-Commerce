@@ -1,0 +1,93 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>commande</title>
+    <link rel="stylesheet" href="C:/Users/amira/Desktop/projett/StyleM.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="C:/Users/amira/Desktop/projett/bootstrap-5.0.2-dist/css/bootstrap.css">
+    <link rel="shortcut icon" type="image/png" href="Bild/img1.jpeg">
+</head>
+<body>
+    <header>
+        <nav class="navbar1">
+
+            <ul>
+                <li>
+                    <a href="acc.html" class="b">
+                        <span> <img src="Bild/img1.jpeg" alt="maquillage1" width=30 hight=30> </span> Bling Bling
+                    </a>
+                </li>
+                <li>
+                    <a href="acc.html" class="active">
+                        <span> <i class="fa fa-home" style="font-size:24px; color:white"></i> </span> Home
+                    </a>
+                </li>
+
+                <li>
+                    <a href="prod.html">
+                        <span> <i class="fa fa-diamond" style="font-size:24px; color:white"></i> </span> Unsere Produkte
+                    </a>
+                    </li>
+
+                <li>
+                    <a href="commande.html">
+                        <span> <i class="fa fa-shopping-bag" style="font-size:24px; color:white"></i> </span> bestellen Sie
+                    </a>
+                </li>
+            </ul>
+        </nav>
+
+    </header>
+    <section class="img1"> </section>
+    <hr>
+
+    <div class="d1">
+        <h1 id="titre"> Jetzt bestellen!</h1>
+    </div>
+    <hr>
+    <section class="row">
+        <div class="col-md-7 text-center">
+            <form class="stf" id="forum">
+                <fieldset>
+                    <legend id="in"> bestellen Sie </legend>
+                    <label> Vorname </label>
+                    <input type="text" id="nom1" name="Vorname" class="nom1 sf" placeholder="Geben Sie Ihre Vorname"required> <br>
+                    <span id="sp1" style="color:red; font-style:italic;"> </span><br>
+                    <label> Nachname </label>
+                    <input type="text" id="prenom1" name="prenom" class="prenom1 sf" placeholder="Geben Sie Ihre Nachname"required> <br>
+                    <label> Entrer votre Email </label>
+                    <input type="Email" id="mail1" name="mail1" class="mail1 sf" placeholder="Geben Sie Ihre Email"required> <br>
+                    <label> Entrer votre numéro </label>
+                    <input type="Handynummer" id="phone1" name="phone1" class="phone1 sf" required placeholder="Geben Sie Ihre Handynummer"required> <br>
+                    <label> Anrede </label> <br>
+                    <input type="radio" name="choix" value="Weiblich" class="sf" id="f" checked> Weiblich
+                    <input type="radio" name="choix" value="männlich" class="sf" id="h"> Männlich
+                    <br>
+                    <label> Produkte </label>
+                    <select name="produits" class="sf">
+                        <option> Limettenrot </option>
+                        <option> Make-up Zubehör </option>
+                        <option> Foundation </option>
+                        <option> Box </option>
+                        <option> Andere </option>
+                    </select> <br>
+                    <label> Ihre Bemerkung </label>
+                    <textarea id="msg" class="msg sf" name="msg"> </textarea> <br>
+
+                    <label> Bezahlen </label> <br>
+                    <input type="checkbox" name="liste" value="bank" class="sf" checked> mit Kreditkarte
+                    <br>
+                    <input type="checkbox" id="case" required> ich bin einverstanden <br>
+
+                    <input type="submit" value="Senden" class="btn1">
+                    <input type="reset" value="Abbrechen" class="btn1">
+
+                </fieldset>
+            </form>
+        </div>
+    </section>
+</body>
+</html>

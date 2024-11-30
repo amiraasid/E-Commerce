@@ -1,0 +1,212 @@
+﻿.img1 {
+    background-image: url("Bild/img1.jpeg");
+    min-height:600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+}
+.d1 h1 {
+    color: hotpink;
+    text-align:center;
+    font-size: 40px;
+    font-family: cursive;
+    font-style: italic;
+    display: block;
+    letter-spacing: 3px;
+    line-height: 1.2;
+}
+.d1 h3 {
+    color: lightpink;
+    font-size: 20px;
+    font-family: cursive;
+    font-style: italic;
+    display: block;
+    letter-spacing: 1.2px;
+    line-height: 1.2;
+}
+.d1 p {
+    font-size: 20px;
+    font-family: monospace;
+}
+.stack {
+    display: grid;
+    grid-template-areas: "stack";
+    width: 30rem;
+    height: 30rem;
+    margin-left: 390px;
+    margin-top: 80px;
+    margin-bottom: 45px;
+    margin-right: 110px;
+    padding-left: 110px;
+    padding-bottom : 30px
+}
+.stack > img{
+    grid-area:stack;
+    width:100%;
+    aspect-ratio:1;
+    object-fit: cover;
+    box-shadow: 0 0 0.5rem rgb(241, 187, 187 /.2);
+    border:solid 0.5rem white ;
+    border-bottom:solid 2rem white ;
+    border-radius:0.5rem;
+    transition:transform 200ms;
+}
+.stack > img:nth-child(1){
+    transform : rotate(5deg) translateX(1.25rem) translateY(-1.25rem) ;
+}
+
+.stack > img:nth-child(2) {
+    transform: rotate(-10deg) translateX(-1.25rem) ;
+}
+
+.stack > img:nth-child(3) {
+    transform: rotate(0deg) ;
+}
+
+.stack:hover > img:nth-child(1) {
+    transform: rotate(10deg) translateX(2.25rem) translateY(-2.25rem);
+}
+
+.stack:hover > img:nth-child(2) {
+    transform: rotate(-20deg) translateX(-3.75rem);
+}
+
+.stack:hover > img:nth-child(3) {
+    transform: rotate(0deg);
+
+}
+
+.table1 {
+    font-family: monospace;
+    font-size: 15px;
+    border-collapse: collapse;
+    width: 100%;
+    text-align: left;
+}
+
+.table1 td, th {
+    text-align:center;
+    border: 1px solid white;
+    padding: 10px;
+}
+
+.table1 tr:nth-child(even) {
+    background-color: #EACAFF;
+}
+
+.table1 tr:nth-child(odd) {
+    background-color: #F286CD;
+}
+
+.bgimage {
+    text-align: center;
+    background: linear-gradient(93deg, #b92424, #d7cccc78);
+    background-color: #df96a7;
+    font-family: monospace;
+    color: #fbfbfb;
+}
+.navbar1 {
+    background: linear-gradient(93deg, #b92424, #d7cccc78);
+    overflow: hidden;
+    background-color: #df96a7;
+    font-family: monospace;
+    color: #fbfbfb;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+}
+
+    .navbar1 a {
+        float: left;
+        color: white;
+        padding: 14px 14px;
+        text-decoration: none; 
+        font-size: 18px;
+    }
+
+    .navbar1 ul {
+        list-style-type: none; 
+        font-family: monospace;
+    }
+
+    .navbar1 a:hover {
+        background-color: #aa6079;
+        color: beige;
+    }
+
+    .navbar1 a.active {
+        background-color: #aa6079;
+        color: wheat;
+    }
+.stf {
+    background-image: url("Bild/img2.jpeg");
+    background-repeat:repeat;
+    opacity: 0.6;
+    color: white;
+    text-align: left;
+    font-weight: bold;
+    font-family: monospace;
+    max-width: 780px;
+    align-content: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 10px;
+    margin-bottom: 40px;
+    margin-left:5px;
+}
+.sf {
+    color: #c4cbbff5;
+    font-size: 15px;
+    font-style: italic;
+    border: 2px solid white;
+    padding: 10px 10px;
+    margin-bottom: 5px;
+    border-radius: 12px;
+    background-color: initial;
+}
+
+.btn1 {
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #dc3545;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    background-color: #fff;
+    border: 1px solid #000;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    border-radius: 0.25rem;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+label {
+    display: inline-block;
+    width: 130px;
+    text-align: left;
+    color: white;
+}
+body {
+    padding: 0;
+    margin: 0;
+    font-family: "Relawey";
+    font-size: 23px;
+    font-weight: 400;
+    color: white;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 250px;
+}
+
